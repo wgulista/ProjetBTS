@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AdminFleur</name>
+    </assembly>
+    <members>
+        <member name="M:AdminFleur.Produits.Ajouter">
+            <summary>
+            Méthode Ajouter permet d'ajouter un nouveau produit dans la base de donnée 
+            </summary>
+        </member>
+        <member name="F:AdminFleur.Produits.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AdminFleur.Produits.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AdminFleur.Produits.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AdminFleur.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:AdminFleur.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:AdminFleur.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+        <member name="F:AdminFleur.LaFleur.components">
+            <summary>
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:AdminFleur.LaFleur.Dispose(System.Boolean)">
+            <summary>
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:AdminFleur.LaFleur.InitializeComponent">
+            <summary>
+            Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+            le contenu de cette méthode avec l'éditeur de code.
+            </summary>
+        </member>
+        <member name="M:AdminFleur.LaFleur.chargerProduits">
+            <summary>
+            La méthode chargerProduits permet de charger les produits à partir de la base de donnée.
+            Elle liste ensuite chaque produit dans un DataGridView.
+            </summary>
+        </member>
+        <member name="M:AdminFleur.LaFleur.chargerClients">
+            <summary>
+            La méthode chargerClients permet de charger tout les clients enregistrés sur le site LA FLEUR à partir de la base de donnée.
+            Elle liste ensuite chaque client dans un DataGridView
+            </summary>
+        </member>
+        <member name="M:AdminFleur.LaFleur.comboClients">
+            <summary>
+            La méthode comboClients permet de remplir la listBox avec les numeros de commande en fonction du Client choisi dans la ComboBox.
+            </summary>
+        </member>
+        <member name="M:AdminFleur.LaFleur.listBoxCommandes">
+            <summary>
+            La méthode listBoxCommandes permet de lister L'Id Produit, la quantité et le prix ttc des produits d'une commande choisie.
+            </summary>
+        </member>
+        <member name="M:AdminFleur.LaFleur.SupprimerProduit">
+            <summary>
+            La méthode SupprimerProduit permet de supprimer un produit de la base de donnée en fonction du produit choisi par l'administrateur.
+            </summary>
+        </member>
+        <member name="M:AdminFleur.Program.Main">
+            <summary>
+            Point d'entrée principal de l'application.
+            </summary>
+        </member>
+    </members>
+</doc>
